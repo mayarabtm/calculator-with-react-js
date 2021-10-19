@@ -25,7 +25,8 @@ export default class Calculator extends Component {
 
     clearMemory() {
         this.setState({ ...initialState })
-    }
+        
+    } 
 
     setOperation(operation) {
         if (this.state.current === 0) {
